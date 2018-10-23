@@ -1,0 +1,22 @@
+{
+  "name": "NodeExpressBase",
+  "version": "1.0.0",
+  "description": "Node express base application boilerplate.",
+  "main": "boot.js",
+  "scripts": {
+    "start": "node boot.js",
+    "test": "mocha 'spec/*.spec.js'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}

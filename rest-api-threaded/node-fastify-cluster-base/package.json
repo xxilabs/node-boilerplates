@@ -1,0 +1,20 @@
+{
+  "name": "NodeBase",
+  "version": "1.0.0",
+  "description": "Node base application boilerplate.",
+  "main": "boot.js",
+  "scripts": {
+    "start": "node boot.js",
+    "test": "mocha 'spec/*.spec.js'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "fastify": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}
